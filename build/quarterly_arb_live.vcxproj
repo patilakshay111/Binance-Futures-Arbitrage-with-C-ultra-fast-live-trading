@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{18D64686-B0D5-3691-995C-8B035557B709}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>quarterly_arb_live</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LinkToolExe Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\msys64\mingw64\bin\ld.exe</LinkToolExe>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">quarterly_arb_live.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">quarterly_arb_live</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <LinkToolExe Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\msys64\mingw64\bin\ld.exe</LinkToolExe>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">quarterly_arb_live.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">quarterly_arb_live</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <LinkToolExe Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\msys64\mingw64\bin\ld.exe</LinkToolExe>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">quarterly_arb_live.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">quarterly_arb_live</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <LinkToolExe Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\msys64\mingw64\bin\ld.exe</LinkToolExe>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">quarterly_arb_live.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">quarterly_arb_live</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std=gnu++17</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;C:\msys64\mingw64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;C:\msys64\mingw64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\msys64\mingw64\lib\libcurl.dll.a;C:\msys64\mingw64\lib\libssl.dll.a;C:\msys64\mingw64\lib\libcrypto.dll.a;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/akpatil/Desktop/Arbitrage_futures/build/Debug/libquarterly_arb_live.dll.a</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/akpatil/Desktop/Arbitrage_futures/build/Debug/quarterly_arb_live.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std=gnu++17</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;C:\msys64\mingw64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;C:\msys64\mingw64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\msys64\mingw64\lib\libcurl.dll.a;C:\msys64\mingw64\lib\libssl.dll.a;C:\msys64\mingw64\lib\libcrypto.dll.a;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/akpatil/Desktop/Arbitrage_futures/build/Release/libquarterly_arb_live.dll.a</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/akpatil/Desktop/Arbitrage_futures/build/Release/quarterly_arb_live.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std=gnu++17</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;C:\msys64\mingw64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;C:\msys64\mingw64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\msys64\mingw64\lib\libcurl.dll.a;C:\msys64\mingw64\lib\libssl.dll.a;C:\msys64\mingw64\lib\libcrypto.dll.a;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/akpatil/Desktop/Arbitrage_futures/build/MinSizeRel/libquarterly_arb_live.dll.a</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/akpatil/Desktop/Arbitrage_futures/build/MinSizeRel/quarterly_arb_live.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std=gnu++17</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;C:\msys64\mingw64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\akpatil\Desktop\Arbitrage_futures\websocketpp;C:\msys64\mingw64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\msys64\mingw64\lib\libcurl.dll.a;C:\msys64\mingw64\lib\libssl.dll.a;C:\msys64\mingw64\lib\libcrypto.dll.a;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/akpatil/Desktop/Arbitrage_futures/build/RelWithDebInfo/libquarterly_arb_live.dll.a</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/akpatil/Desktop/Arbitrage_futures/build/RelWithDebInfo/quarterly_arb_live.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\akpatil\Desktop\Arbitrage_futures\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/akpatil/Desktop/Arbitrage_futures/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -SC:/Users/akpatil/Desktop/Arbitrage_futures -BC:/Users/akpatil/Desktop/Arbitrage_futures/build --check-stamp-file C:/Users/akpatil/Desktop/Arbitrage_futures/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeCXXCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\msys64\mingw64\lib\cmake\Boost-1.90.0\BoostConfig.cmake;C:\msys64\mingw64\lib\cmake\Boost-1.90.0\BoostConfigVersion.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLConfig.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLConfigVersion.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLTargets-release.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLTargets.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindBrotli.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibidn2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibpsl.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibssh2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGHTTP2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGHTTP3.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGTCP2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindZstd.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-config.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-config.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-config.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-config.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-config.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-config.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-config.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-config.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-config.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-targets.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeFindDependencyMacro.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckCSourceCompiles.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckLibraryExists.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\FindBoost.cmake;C:\msys64\mingw64\share\cmake\Modules\FindCURL.cmake;C:\msys64\mingw64\share\cmake\Modules\FindOpenSSL.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPkgConfig.cmake;C:\msys64\mingw64\share\cmake\Modules\FindThreads.cmake;C:\msys64\mingw64\share\cmake\Modules\FindZLIB.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CheckSourceCompiles.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-C-ABI.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-CXX-ABI.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-windres.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\WindowsPaths.cmake;C:\msys64\mingw64\share\cmake\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/akpatil/Desktop/Arbitrage_futures/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -SC:/Users/akpatil/Desktop/Arbitrage_futures -BC:/Users/akpatil/Desktop/Arbitrage_futures/build --check-stamp-file C:/Users/akpatil/Desktop/Arbitrage_futures/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeCXXCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\msys64\mingw64\lib\cmake\Boost-1.90.0\BoostConfig.cmake;C:\msys64\mingw64\lib\cmake\Boost-1.90.0\BoostConfigVersion.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLConfig.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLConfigVersion.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLTargets-release.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLTargets.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindBrotli.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibidn2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibpsl.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibssh2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGHTTP2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGHTTP3.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGTCP2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindZstd.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-config.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-config.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-config.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-config.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-config.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-config.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-config.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-config.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-config.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-targets.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeFindDependencyMacro.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckCSourceCompiles.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckLibraryExists.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\FindBoost.cmake;C:\msys64\mingw64\share\cmake\Modules\FindCURL.cmake;C:\msys64\mingw64\share\cmake\Modules\FindOpenSSL.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPkgConfig.cmake;C:\msys64\mingw64\share\cmake\Modules\FindThreads.cmake;C:\msys64\mingw64\share\cmake\Modules\FindZLIB.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CheckSourceCompiles.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-C-ABI.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-CXX-ABI.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-windres.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\WindowsPaths.cmake;C:\msys64\mingw64\share\cmake\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/akpatil/Desktop/Arbitrage_futures/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -SC:/Users/akpatil/Desktop/Arbitrage_futures -BC:/Users/akpatil/Desktop/Arbitrage_futures/build --check-stamp-file C:/Users/akpatil/Desktop/Arbitrage_futures/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeCXXCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\msys64\mingw64\lib\cmake\Boost-1.90.0\BoostConfig.cmake;C:\msys64\mingw64\lib\cmake\Boost-1.90.0\BoostConfigVersion.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLConfig.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLConfigVersion.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLTargets-release.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLTargets.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindBrotli.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibidn2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibpsl.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibssh2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGHTTP2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGHTTP3.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGTCP2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindZstd.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-config.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-config.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-config.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-config.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-config.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-config.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-config.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-config.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-config.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-targets.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeFindDependencyMacro.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckCSourceCompiles.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckLibraryExists.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\FindBoost.cmake;C:\msys64\mingw64\share\cmake\Modules\FindCURL.cmake;C:\msys64\mingw64\share\cmake\Modules\FindOpenSSL.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPkgConfig.cmake;C:\msys64\mingw64\share\cmake\Modules\FindThreads.cmake;C:\msys64\mingw64\share\cmake\Modules\FindZLIB.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CheckSourceCompiles.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-C-ABI.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-CXX-ABI.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-windres.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\WindowsPaths.cmake;C:\msys64\mingw64\share\cmake\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/akpatil/Desktop/Arbitrage_futures/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\msys64\mingw64\bin\cmake.exe -SC:/Users/akpatil/Desktop/Arbitrage_futures -BC:/Users/akpatil/Desktop/Arbitrage_futures/build --check-stamp-file C:/Users/akpatil/Desktop/Arbitrage_futures/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeCCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeCXXCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeRCCompiler.cmake;C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\4.2.3\CMakeSystem.cmake;C:\msys64\mingw64\lib\cmake\Boost-1.90.0\BoostConfig.cmake;C:\msys64\mingw64\lib\cmake\Boost-1.90.0\BoostConfigVersion.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLConfig.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLConfigVersion.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLTargets-release.cmake;C:\msys64\mingw64\lib\cmake\CURL\CURLTargets.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindBrotli.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibidn2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibpsl.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindLibssh2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGHTTP2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGHTTP3.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindNGTCP2.cmake;C:\msys64\mingw64\lib\cmake\CURL\FindZstd.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-config.cmake;C:\msys64\mingw64\lib\cmake\boost_assert-1.90.0\boost_assert-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-config.cmake;C:\msys64\mingw64\lib\cmake\boost_config-1.90.0\boost_config-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-config.cmake;C:\msys64\mingw64\lib\cmake\boost_headers-1.90.0\boost_headers-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-config.cmake;C:\msys64\mingw64\lib\cmake\boost_mp11-1.90.0\boost_mp11-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-config.cmake;C:\msys64\mingw64\lib\cmake\boost_predef-1.90.0\boost_predef-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-config.cmake;C:\msys64\mingw64\lib\cmake\boost_system-1.90.0\boost_system-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-config.cmake;C:\msys64\mingw64\lib\cmake\boost_throw_exception-1.90.0\boost_throw_exception-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-config.cmake;C:\msys64\mingw64\lib\cmake\boost_variant2-1.90.0\boost_variant2-targets.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-config-version.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-config.cmake;C:\msys64\mingw64\lib\cmake\boost_winapi-1.90.0\boost_winapi-targets.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCXXInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeFindDependencyMacro.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckCSourceCompiles.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckIncludeFile.cmake;C:\msys64\mingw64\share\cmake\Modules\CheckLibraryExists.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Compiler\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\FindBoost.cmake;C:\msys64\mingw64\share\cmake\Modules\FindCURL.cmake;C:\msys64\mingw64\share\cmake\Modules\FindOpenSSL.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageHandleStandardArgs.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPackageMessage.cmake;C:\msys64\mingw64\share\cmake\Modules\FindPkgConfig.cmake;C:\msys64\mingw64\share\cmake\Modules\FindThreads.cmake;C:\msys64\mingw64\share\cmake\Modules\FindZLIB.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\msys64\mingw64\share\cmake\Modules\Internal\CheckSourceCompiles.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Linker\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Linker\Windows-GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-C-ABI.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-C.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-CXX-ABI.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU-CXX.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-GNU.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-Initialize.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows-windres.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake\Modules\Platform\WindowsPaths.cmake;C:\msys64\mingw64\share\cmake\Modules\SelectLibraryConfigurations.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\akpatil\Desktop\Arbitrage_futures\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\akpatil\Desktop\Arbitrage_futures\quarterly_arb_live.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\akpatil\Desktop\Arbitrage_futures\build\ZERO_CHECK.vcxproj">
+      <Project>{77594465-FA26-3363-9B63-59B613A8DC02}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
