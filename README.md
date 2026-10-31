@@ -1,4 +1,16 @@
 # Binance Futures Arbitrage - C++ Live Engine
+[![GitHub release](https://img.shields.io/github/release/patilakshay111/Project-self-healing-docs-with-PR.svg?label=Latest)](https://github.com/patilakshay111/Project-self-healing-docs-with-PR/releases/latest)
+[![GitHub Marketplace](https://img.shields.io/badge/Marketplace-Self--Healing%20Docs-blue?logo=github)](https://github.com/marketplace)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)](https://www.python.org/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-green?logo=openai)](https://platform.openai.com/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](https://www.docker.com/)
+[![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-gray?logo=github-actions)](https://github.com/features/actions)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+<img width="2752" height="1536" alt="Gemini_Generated_Image_vnfg6lvnfg6lvnfg" src="https://github.com/user-attachments/assets/17ebeed6-02df-4f76-9ad9-17dff1af1daf" />
+
+
 
 Low-latency C++17 implementation of a Binance spot versus quarterly-futures convergence arbitrage engine. This repo is the performance-oriented counterpart to the Python research version, with native networking, JSON parsing, HMAC signing, and a dry-run default.
 
